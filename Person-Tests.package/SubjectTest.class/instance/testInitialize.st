@@ -4,4 +4,6 @@ testInitialize
 	"scope: class-variables  &  instance-variables"	
 			
 	| subject |
-	subject := Subject new:'Codigo' name: 'Algebra'.
+	subject := Subject new:'AWD201' name: 'Algebra'.
+	self assert: subject code equals: 'AWD201'.
+	self assert: subject name equals: 'Algebra'
