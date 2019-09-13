@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Person",
+	"category" : "Person",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"year",
+		"subjects"
+	],
+	"name" : "Student",
+	"type" : "normal"
+}
